@@ -49,11 +49,7 @@
   font-size: 16px;
   line-height: 50px;
 }
-.wjs_nav .navbar-nav > li > a:hover,
-.wjs_nav .navbar-nav > li a:focus {
-  color: #777;
-  border-bottom: 3px solid #e92322;
-}
+
 .wjs_nav .navbar-nav > .active > a,
 .wjs_nav .navbar-nav > .active a:focus,
 .wjs_nav .navbar-nav > .active a:hover {
