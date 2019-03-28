@@ -1,0 +1,198 @@
+
+.jd_layout {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: rgba(233,35,34,1);
+}
+.jd_search {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background-color: #e92322;
+    max-width:640px;
+    z-index: 9;
+}
+.jd_logo {
+    width: 56px;
+    height: 30px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    background: url("../images/sprites.png") no-repeat ;
+    background-size: 200px 200px;
+    background-position: 0 -108px;
+}
+ .jd_login {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 40px;
+    color:#fff;
+
+ }
+ .jd_searchBox {
+    width: 100%;
+    height: 100%;
+    padding-left: 76px;
+    padding-right: 50px;
+ }
+ .jd_searchBox>input {
+     width: 100%;
+     height: 30px;
+     margin-top: 5px;
+     padding-left: 30px;
+     border-radius: 15px;
+ }
+ .jd_searchBox::before {
+    content: '';
+    width: 27px;
+    height: 23px;
+    position: absolute;
+    background: url("../images/sprites.png") no-repeat ;
+    background-size: 200px 200px;
+    background-position: -56px -108px;
+    left: 77px;
+    top: 7px;
+ }
+
+ .jd_banner {
+    width: 100%;
+    overflow : hidden;
+    position: relative;
+
+ }
+ .jd_bannerImg {
+    position: relative;
+    width: 800%;
+ }
+ .jd_bannerImg > li {
+    float: left;
+    width: 12.5%;
+ }
+ .jd_bannerImg > li img{
+   display: block;
+   width: 100%;
+ }
+ .jd_bannerIndicaror {
+    width: 136px;
+    height: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform : translateX(-50%);
+    padding-top: 2px;
+ }
+ .jd_bannerIndicaror > li {
+     width: 6px;
+     height: 6px;
+     border-radius: 3px;
+     border: 1px solid #fff;
+     float: left;
+     margin-left: 10px;
+ }
+ .jd_bannerIndicaror > li:first-of-type(1){
+    margin-left: 0;
+ }
+ .active {
+    background-color: #fff;
+ }
+.jd_nav li {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+    text-align: center;
+}
+.jd_nav {
+    background-color: #fff;
+}
+.jd_nav li img {
+    width: 50px;
+}
+.jd_nav li p {
+    line-height: 10px;
+}
+.jd_product{
+    width: 100%;
+}
+.jd_productBox{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.jd_Ptip {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+    padding-left: 30px;
+    position: relative;
+}
+
+.jd_Pcontent {
+ width: 100%;
+}
+.jd_Ptip > h3::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 12px;
+    background-color: #e92322;
+    left: 23px;
+    top: 9px;
+
+}
+.a_50 {
+    display: block;
+    width: 50%;
+}
+.a_50 img {
+    width: 100%;
+    display : block;
+}
+
+
+.ms-title {
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #ccc;
+
+}
+.timeI {
+    width: 15px;
+    height: 18px;
+    display: inline-block;
+    margin-top :4px;
+}
+.ms-title {
+    margin-top: 10px;
+    line-height:30px;
+}
+.ms {
+    color: #e92322;
+}
+.gdms {
+    color: #666;
+}
+.timeB {
+    margin-left:10px;
+
+}
+.timeB span {
+    display: inline-block;
+    width: 13px;
+    height: 18px;
+    line-height:18px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.timeB span:nth-child(3n) {
+   background-color: #fff;
+   color: #000;
+}
